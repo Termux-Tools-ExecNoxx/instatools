@@ -1,0 +1,14 @@
+Increase Instagram followers using Termux.
+
+To use Instagram tools type
+the following commands in Termux.
+
+apt update && apt upgrade -y
+pkg install git 
+git clone https://github.com/rrudy0966/instatools
+cd instatools
+unzip node_modules.zip
+pkg install nodejs
+npm install
+ininstagramprivateapi
+node index
